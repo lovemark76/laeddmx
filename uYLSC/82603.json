@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：项目实践：多环境配置管理组件设计与实现
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/40479925.shtml
+
+原标题：文件编码统一随机乱码修复
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/59144389.shtml
+
+原标题：看懂报错日志快速定位问题
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/82677003.shtml
+
+原标题：golang 系统设计磁盘满故障应急处理步骤
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/83357347.shtml
+
+原标题：程序信号中断退出处理逻辑
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/71468003.shtml
+
+原标题：分布式 ID 全局唯一生成方案
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/26033647.shtml
+
+原标题：golang prometheus metrics 埋点开发
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/93881024.shtml
+
+原标题：DevOps：制品仓库管理二进制产物版本
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/59357126.shtml
+
+原标题：OpenAPI 自动接口文档生成
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/51153681.shtml
+
+原标题：代理 HTTPS 证书访问异常处理
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/93480368.shtml
+
+原标题：HTTPS 证书过期更新操作
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/82578005.shtml
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/79209922.shtml
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/93231423.shtml
+
+原标题：golang 系统设计热点数据缓存处理
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/95579255.shtml
+
+原标题：golang 系统设计 traceId 全链路透传完整方案
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/15557167.shtml
+
+原标题：golang 系统设计 io 瓶颈磁盘网络优化实践
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/29911470.shtml
+
+原标题：多规则数据脱敏组件开发
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/72277032.shtml
+
+原标题：Hands‑on：简易压缩中间件gzip实现实践
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/48179138.shtml
+
+原标题：读懂开源项目 README 实用技巧
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/96028029.shtml
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/29356350.shtml
+
+原标题：golang 系统设计混沌测试简单场景模拟实现
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/85806814.shtml
+
+原标题：项目实践：搭建个人API网关最小实现版本
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/64725026.shtml
+
+原标题：golang defer panic 异常处理
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74024027.shtml
+
+原标题：Debug：分布式会话时钟不同步令牌提前失效
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18136250.shtml
+
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/47179173.shtml
+
+原标题：golang gitlab ci 配置自动构建镜像
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/30413793.shtml
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/00432436.shtml
+
+原标题：golang 系统设计集成测试环境准备清理实操
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/09280792.shtml
+
+原标题：golang 系统设计 graphql 接口优缺点梳理
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/69011347.shtml
+
+原标题：golang 系统设计分库分表扩容平滑迁移
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/41569582.shtml
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/96049253.shtml
+
+原标题：零基础理解读写分离基础思想
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/41563589.shtml
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/05671659.shtml
+
+原标题：内网测试服务搭建团队调试
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/71781036.shtml
+
+原标题：开源实践：开源项目如何写好PullRequest
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/09357458.shtml
+
+原标题：快速入门Nginx基础配置，反向代理示例
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/04848469.shtml
+
+原标题：线上异常：接口偶发超时，完整定位过程记录
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/82624803.shtml
+
+原标题：缓存穿透击穿雪崩全套防护
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/85936947.shtml
+
+原标题：快速入门消息队列基础概念模型
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/85037358.shtml
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/59279701.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：入门实践：Git分支创建切换合并完整演示
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/30351463.shtml
+
+原标题：实践：Git大仓库历史清理减小仓库体积实践
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/05836957.shtml
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74826948.shtml
+
+原标题：Hands‑on：静态资源CDN缓存控制头配置实践
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/63825868.shtml
+
+原标题：golang redis 位图用户签到统计
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/64910340.shtml
+
+原标题：golang 系统设计 debug 远程调试 go 程序实操
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/15358060.shtml
+
+原标题：正则表达式文本处理实战案例
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/26452574.shtml
+
+原标题：golang 系统设计故障演练简单落地思路方法论
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/53895704.shtml
+
+原标题：新手参与开源社区贡献指南
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/63957069.shtml
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/31180695.shtml
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/26458087.shtml
+
+原标题：golang defer panic 异常处理
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/81503624.shtml
+
+原标题：接口限流逻辑简单模拟实现
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/19340358.shtml
+
+原标题：golang 系统设计磁盘满故障应急处理步骤
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/98279036.shtml
+
+原标题：开发代理服务网络限制解决
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/06746947.shtml
+
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/52270203.shtml
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74702807.shtml
+
+原标题：请求工具封装统一异常处理
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/53714735.shtml
+
+原标题：golang k8s cronjob 定时任务配置
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/06018039.shtml
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/96624925.shtml
+
+原标题：OpenSource：开源项目许可证License选型指南
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/30380291.shtml
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/21613624.shtml
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/27068130.shtml
+
+原标题：Performance：JSON序列化性能优化实践
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/85735814.shtml
+
+原标题：消息消费重试次数限制防爆炸
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18257363.shtml
+
+原标题：日志输出规范防止磁盘爆满
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/64513914.shtml
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/42535806.shtml
+
+原标题：golang base64 编码解码实操
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/96168478.shtml
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/70403736.shtml
+
+原标题：大事务拆分防止连接池耗尽
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/96181403.shtml
+
+原标题：golang docker compose 完整语法
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/07069179.shtml
+
+原标题：golang 系统设计数据库查询优化完整流程
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/75902803.shtml
+
+原标题：golang 系统设计自动化测试 ci 流水线集成实操
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/41471452.shtml
+
+原标题：前端静态缓存更新生效处理
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/96347358.shtml
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/29363590.shtml
+
+原标题：坑点：Docker资源限制未设置导致宿主机卡死
+简介：文件句柄上限调整上传随机失败，调高系统文件句柄上限，解决高并发上传场景随机打开文件失败。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/42784736.shtml
+
+原标题：Hands‑on：shell脚本批量自动化运维小工具
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/29257028.shtml
+
+原标题：快速上手单元测试，写出第一个测试用例
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/07128139.shtml
+
+原标题：DevOps：环境配置管理区分开发测试生产
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/60394696.shtml
+
+原标题：零基础理解读写分离基础思想
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18146470.shtml
+
+三、实战开发｜Practice
+原标题：golang pprof 线上采集性能数据
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/54795813.shtml
+
+原标题：golang 系统设计消息幂等消费去重实现方案
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/41795702.shtml
+
+原标题：接口幂等性防重复请求实现
+简介：pnpm 包管理工具实战避坑指南，使用 pnpm 管理项目依赖，梳理常见坑点，充分利用 pnpm 优势。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/52281792.shtml
+
+原标题：编译打包产物依赖分析解读
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/07139168.shtml
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/75245136.shtml
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74805814.shtml
+
+原标题：排错：多实例部署session共享失效登录失效
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/41502425.shtml
+
+原标题：Cookie 跨环境登录配置调整
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/17158469.shtml
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/30492573.shtml
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/30162471.shtml
+
+原标题：nodejs 消息队列消费服务开发
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/08357378.shtml
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/63884702.shtml
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/28257389.shtml
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/10467460.shtml
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/85513614.shtml
+
+原标题：数据库主从延迟业务兼容处理
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/85514846.shtml
+
+原标题：Mock 接口服务快速搭建实操
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/47068179.shtml
+
+原标题：golang k8s cronjob 定时任务配置
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18279242.shtml
+
+原标题：API 接口调试与异常处理实战
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/04846906.shtml
+
+原标题：golang mongodb 索引优化查询速度
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/63613792.shtml
+
+原标题：设计思考：容器化业务应用架构改造要点
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/15946917.shtml
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/30392584.shtml
+
+原标题：golang 系统设计压测指标确定与分析
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/30469580.shtml
+
+原标题：golang mysql 字符集排序规则设置
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/08168079.shtml
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/85847379.shtml
+
+原标题：架构笔记：高并发系统核心设计思路总结
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/07158958.shtml
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/42674695.shtml
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18272580.shtml
+
+原标题：文件编码统一随机乱码修复
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/25351414.shtml
+
+原标题：golang 系统设计告警风暴抑制方案实现
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/71025146.shtml
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74784695.shtml
+
+原标题：避坑：预编译SQL失效，出现SQL注入风险
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/52513624.shtml
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/29502585.shtml
+
+原标题：从零搭建本地开发环境完整教程
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/17463682.shtml
+
+原标题：浮点计算精度错误处理方案
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74909148.shtml
+
+原标题：Security：服务器最小权限账号运维实践
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18145970.shtml
+
+原标题：golang 系统设计索引设计通用方法论汇总
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/41570585.shtml
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74891802.shtml
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/21563580.shtml
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/08241451.shtml
+
+四、架构设计｜Architecture
+原标题：容器资源限制防止宿主机过载
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/40461784.shtml
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18147470.shtml
+
+原标题：Nginx 丢失请求头配置修正
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74903946.shtml
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/03236068.shtml
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/37169502.shtml
+
+原标题：golang 系统设计用户签到统计方案
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/07947051.shtml
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/93014738.shtml
+
+原标题：灰度发布策略服务平滑升级
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/04836273.shtml
+
+原标题：golang 工具函数库封装思路
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/75805027.shtml
+
+原标题：golang 系统设计 protobuf 命名规范最佳实践
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/52684813.shtml
+
+原标题：golang minio 分片上传断点续传
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18561402.shtml
+
+原标题：开发复盘：异步消息解耦业务流程落地实践
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/15068139.shtml
+
+原标题：性能笔记：DNS缓存优化减少域名解析开销
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/18468461.shtml
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/83490367.shtml
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/83146033.shtml
+
+原标题：实践：灰度流量切分简易实现方案
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74569376.shtml
+
+原标题：架构笔记：分布式系统常见一致性模型梳理
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/26081255.shtml
+
+原标题：静态站点自动部署发布方案
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://www.blog.igptvs.cn/qrdqp/74478044.shtml
+
+?
