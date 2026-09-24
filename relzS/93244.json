@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：m.rix2l6.asia/Article/details/1851879.sHtML
+
+原标题：时间精度统一业务判断修复
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：m.rix2l6.asia/Article/details/9900895.sHtML
+
+原标题：golang ci 流水线代码质量扫描集成
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：m.rix2l6.asia/Article/details/5484246.sHtML
+
+原标题：golang 系统设计 grpc proto 接口设计原则
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：m.rix2l6.asia/Article/details/0233256.sHtML
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：m.rix2l6.asia/Article/details/0254667.sHtML
+
+原标题：golang prometheus 告警规则编写
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：m.rix2l6.asia/Article/details/8921457.sHtML
+
+原标题：golang 系统设计版本号语义化规范讲解
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：m.rix2l6.asia/Article/details/5473564.sHtML
+
+原标题：对象存储上传下载权限实操
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：m.rix2l6.asia/Article/details/2123470.sHtML
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：m.rix2l6.asia/Article/details/4801913.sHtML
+
+原标题：CORS 跨域问题多种解决方案
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：m.rix2l6.asia/Article/details/8790896.sHtML
+
+原标题：css 变量主题切换方案实现
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：m.rix2l6.asia/Article/details/5518569.sHtML
+
+原标题：golang mysql 字符集排序规则设置
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：m.rix2l6.asia/Article/details/8796892.sHtML
+
+原标题：golang http 代理客户端配置
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：m.rix2l6.asia/Article/details/4478802.sHtML
+
+原标题：golang gin 静态资源访问配置
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：m.rix2l6.asia/Article/details/0528897.sHtML
+
+原标题：Git 子模块更新代码不全修复
+简介：golang go 服务蓝绿发布实践思路，蓝绿两套实例，流量一键切换，回滚快速降低发布风险。
+ | 原文链接：m.rix2l6.asia/Article/details/3207859.sHtML
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：m.rix2l6.asia/Article/details/1433025.sHtML
+
+原标题：golang 系统设计接口向前兼容改造实操
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：m.rix2l6.asia/Article/details/8921336.sHtML
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：m.rix2l6.asia/Article/details/6587568.sHtML
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：m.rix2l6.asia/Article/details/5473569.sHtML
+
+原标题：golang consul 健康检查服务注册
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：m.rix2l6.asia/Article/details/8701803.sHtML
+
+原标题：全局本地依赖隔离冲突规避
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：m.rix2l6.asia/Article/details/0922024.sHtML
+
+原标题：golang docker 部署 redis 配置要点
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：m.rix2l6.asia/Article/details/0167692.sHtML
+
+原标题：实践：API版本控制多种策略落地对比实践
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：m.rix2l6.asia/Article/details/7343668.sHtML
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：m.rix2l6.asia/Article/details/0567912.sHtML
+
+原标题：并发数据覆盖加锁安全处理
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：m.rix2l6.asia/Article/details/0367770.sHtML
+
+原标题：方案对比：几种任务队列架构选型优缺点
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：m.rix2l6.asia/Article/details/7009912.sHtML
+
+原标题：实战项目：编写Dockerfile多阶段构建减小镜像体积
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：m.rix2l6.asia/Article/details/7930225.sHtML
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：m.rix2l6.asia/Article/details/2140313.sHtML
+
+原标题：golang 系统设计缓存大 key 拆分优化实操
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：m.rix2l6.asia/Article/details/1034535.sHtML
+
+原标题：golang 消息死信处理业务逻辑
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：m.rix2l6.asia/Article/details/6158105.sHtML
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：m.rix2l6.asia/Article/details/0379259.sHtML
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：golang grpc 客户端拦截器封装，grpc 客户端拦截器实现请求统一签名、重试、链路信息透传。
+ | 原文链接：m.rix2l6.asia/Article/details/4872478.sHtML
+
+原标题：包管理器依赖冲突解决方案
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：m.rix2l6.asia/Article/details/0480338.sHtML
+
+原标题：开源实践：开源项目本地调试构建排坑经验
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：m.rix2l6.asia/Article/details/5935813.sHtML
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：m.rix2l6.asia/Article/details/7168760.sHtML
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：m.rix2l6.asia/Article/details/5933768.sHtML
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：m.rix2l6.asia/Article/details/0913588.sHtML
+
+原标题：HelloWorld：快速上手新项目最小可运行示例
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：m.rix2l6.asia/Article/details/6158926.sHtML
+
+原标题：静态博客部署 GitHub Pages 教程
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：m.rix2l6.asia/Article/details/5944561.sHtML
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：m.rix2l6.asia/Article/details/4835816.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：坑点：缓存穿透，大量无效请求打穿数据库
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：m.rix2l6.asia/Article/details/5934703.sHtML
+
+原标题：Architecture：配置中心架构，动态配置设计思路
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：m.rix2l6.asia/Article/details/7247148.sHtML
+
+原标题：golang proto 默认值坑点梳理
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：m.rix2l6.asia/Article/details/2613715.sHtML
+
+原标题：golang context 上下文传参讲解
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：m.rix2l6.asia/Article/details/9692361.sHtML
+
+原标题：方案设计：异步解耦业务架构边界识别
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：m.rix2l6.asia/Article/details/3126794.sHtML
+
+原标题：项目实践：本地模拟多节点分布式系统实践
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：m.rix2l6.asia/Article/details/8567926.sHtML
+
+原标题：JWT 工具封装令牌刷新过期
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：m.rix2l6.asia/Article/details/8158015.sHtML
+
+原标题：包管理器依赖冲突解决方案
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：m.rix2l6.asia/Article/details/0347445.sHtML
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：m.rix2l6.asia/Article/details/9101981.sHtML
+
+原标题：golang redis 连接池参数最佳值
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：m.rix2l6.asia/Article/details/9003095.sHtML
+
+原标题：踩坑记录：UTC时间与本地时间混用逻辑错乱
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：m.rix2l6.asia/Article/details/5802316.sHtML
+
+原标题：golang 空接口 interface 使用技巧
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：m.rix2l6.asia/Article/details/4821360.sHtML
+
+原标题：golang 灰度权重流量分发简单实现
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：m.rix2l6.asia/Article/details/2289256.sHtML
+
+原标题：避坑：Nginx配置错误导致请求丢失Header
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：m.rix2l6.asia/Article/details/5057914.sHtML
+
+原标题：golang kafka 生产者参数调优
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：m.rix2l6.asia/Article/details/1002327.sHtML
+
+原标题：golang 系统设计接口幂等架构设计
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：m.rix2l6.asia/Article/details/9370249.sHtML
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：m.rix2l6.asia/Article/details/2610151.sHtML
+
+原标题：性能笔记：操作系统文件句柄、虚拟内存调优
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：m.rix2l6.asia/Article/details/8281116.sHtML
+
+原标题：入门实践：项目配置文件多环境管理方案
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：m.rix2l6.asia/Article/details/7025704.sHtML
+
+原标题：golang 系统设计文件存储选型对比
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：m.rix2l6.asia/Article/details/6057912.sHtML
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：m.rix2l6.asia/Article/details/2609141.sHtML
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：m.rix2l6.asia/Article/details/2613582.sHtML
+
+原标题：golang 日志与链路 ID 关联打印
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：m.rix2l6.asia/Article/details/3815723.sHtML
+
+原标题：golang git 提交信息规范校验
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：m.rix2l6.asia/Article/details/0592460.sHtML
+
+原标题：golang docker compose 环境变量
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：m.rix2l6.asia/Article/details/6376793.sHtML
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：m.rix2l6.asia/Article/details/8279091.sHtML
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：m.rix2l6.asia/Article/details/5047993.sHtML
+
+原标题：WebSocket 双向通信 demo 开发
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：m.rix2l6.asia/Article/details/0791481.sHtML
+
+原标题：AI‑Dev：利用AI快速阅读陌生开源项目源码
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：m.rix2l6.asia/Article/details/6147781.sHtML
+
+原标题：golang 系统设计分布式事务几种方案
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：m.rix2l6.asia/Article/details/3026704.sHtML
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：m.rix2l6.asia/Article/details/3046802.sHtML
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：m.rix2l6.asia/Article/details/7468915.sHtML
+
+原标题：限流窗口绕过漏洞修复方案
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：m.rix2l6.asia/Article/details/6010024.sHtML
+
+原标题：开发环境变量配置全平台教程
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：m.rix2l6.asia/Article/details/6015654.sHtML
+
+原标题：golang 接口请求日志记录中间件
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：m.rix2l6.asia/Article/details/1567699.sHtML
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：m.rix2l6.asia/Article/details/1503500.sHtML
+
+原标题：快速入门gRPC基础概念与简单示例
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：m.rix2l6.asia/Article/details/0482478.sHtML
+
+原标题：golang prometheus counter gauge 使用
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：m.rix2l6.asia/Article/details/5580781.sHtML
+
+原标题：golang 系统设计大表加索引线上执行方案
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：m.rix2l6.asia/Article/details/6701791.sHtML
+
+原标题：golang 接口返回统一封装工具
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：m.rix2l6.asia/Article/details/8589685.sHtML
+
+三、实战开发｜Practice
+原标题：架构思考：单体应用向微服务拆分演进路径
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：m.rix2l6.asia/Article/details/8803013.sHtML
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：m.rix2l6.asia/Article/details/8919023.sHtML
+
+原标题：架构复盘：消息队列在业务系统中边界与最佳实践
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：m.rix2l6.asia/Article/details/2614578.sHtML
+
+原标题：实践：前后端时间格式统一规范落地实践
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：m.rix2l6.asia/Article/details/7202368.sHtML
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：m.rix2l6.asia/Article/details/5044683.sHtML
+
+原标题：golang 静态文件服务搭建教程
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：m.rix2l6.asia/Article/details/5236105.sHtML
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：m.rix2l6.asia/Article/details/4724699.sHtML
+
+原标题：Performance：大事务拆分，减少锁持有时间
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：m.rix2l6.asia/Article/details/8277815.sHtML
+
+原标题：golang 系统设计 mq 消息积压解决方案
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：m.rix2l6.asia/Article/details/2014816.sHtML
+
+原标题：文件批量导入导出功能实现
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：m.rix2l6.asia/Article/details/0480250.sHtML
+
+原标题：入门实践：简单重试逻辑封装实现
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：m.rix2l6.asia/Article/details/2580314.sHtML
+
+原标题：WSL 搭建 Windows Linux 开发环境
+简介：golang bcrypt 密码哈希加密存储，bcrypt 做用户密码哈希，加盐存储密码，保障用户密码安全。
+ | 原文链接：m.rix2l6.asia/Article/details/2713582.sHtML
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：m.rix2l6.asia/Article/details/7158794.sHtML
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.rix2l6.asia/Article/details/4924692.sHtML
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：m.rix2l6.asia/Article/details/8279145.sHtML
+
+原标题：golang 系统设计缓存一致性方案对比
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：m.rix2l6.asia/Article/details/4834793.sHtML
+
+原标题：前后端交互跨域问题完整处理
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：m.rix2l6.asia/Article/details/5812021.sHtML
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：m.rix2l6.asia/Article/details/6902890.sHtML
+
+原标题：golang 系统设计大盘看板设计最佳实践汇总
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：m.rix2l6.asia/Article/details/4579091.sHtML
+
+原标题：站内邮件消息通知功能开发
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：m.rix2l6.asia/Article/details/5015713.sHtML
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：m.rix2l6.asia/Article/details/6336913.sHtML
+
+原标题：golang 优雅处理 http 超时设置
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：m.rix2l6.asia/Article/details/8258911.sHtML
+
+原标题：线上接口超时故障排查思路
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：m.rix2l6.asia/Article/details/6013471.sHtML
+
+原标题：方案对比：本地缓存vs分布式缓存架构取舍
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：m.rix2l6.asia/Article/details/1779034.sHtML
+
+原标题：golang k8s 滚动更新回滚策略
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：m.rix2l6.asia/Article/details/6159258.sHtML
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：m.rix2l6.asia/Article/details/8570358.sHtML
+
+原标题：golang 系统设计错误码体系完整设计
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：m.rix2l6.asia/Article/details/6043712.sHtML
+
+原标题：WebSocket 双向通信 demo 开发
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：m.rix2l6.asia/Article/details/8781369.sHtML
+
+原标题：数据库读写分离性能优化
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：m.rix2l6.asia/Article/details/6269147.sHtML
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：m.rix2l6.asia/Article/details/4134781.sHtML
+
+原标题：时间精度统一业务判断修复
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：m.rix2l6.asia/Article/details/6348703.sHtML
+
+原标题：golang 系统设计分布式事务几种方案
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：m.rix2l6.asia/Article/details/8148903.sHtML
+
+原标题：golang 系统设计接口防刷 ip 限流实现
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：m.rix2l6.asia/Article/details/7668015.sHtML
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：m.rix2l6.asia/Article/details/4935691.sHtML
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：m.rix2l6.asia/Article/details/4125792.sHtML
+
+原标题：Hands‑on：模板渲染引擎最小原型实现
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：m.rix2l6.asia/Article/details/0581470.sHtML
+
+原标题：布隆过滤器误判问题修正
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：m.rix2l6.asia/Article/details/6049925.sHtML
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：m.rix2l6.asia/Article/details/7215792.sHtML
+
+原标题：golang 系统设计 jwt 安全使用避坑要点
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：m.rix2l6.asia/Article/details/4924692.sHtML
+
+原标题：从零学习基础的接口请求与参数处理
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：m.rix2l6.asia/Article/details/8569149.sHtML
+
+四、架构设计｜Architecture
+原标题：Hands‑on：实现WebSocket聊天室完整前后端demo
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：m.rix2l6.asia/Article/details/0246275.sHtML
+
+原标题：golang es 更新文档注意版本冲突
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：m.rix2l6.asia/Article/details/6099200.sHtML
+
+原标题：golang 消息队列 kafka 消费开发
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：m.rix2l6.asia/Article/details/1746566.sHtML
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：m.rix2l6.asia/Article/details/5900091.sHtML
+
+原标题：golang 系统设计缓存一致性方案对比
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：m.rix2l6.asia/Article/details/9896760.sHtML
+
+原标题：golang 日志与链路 ID 关联打印
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：m.rix2l6.asia/Article/details/3725690.sHtML
+
+原标题：Shell 运维脚本服务器效率提升
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：m.rix2l6.asia/Article/details/1748359.sHtML
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：m.rix2l6.asia/Article/details/6373705.sHtML
+
+原标题：操作系统内核版本适配服务
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：m.rix2l6.asia/Article/details/6314525.sHtML
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：m.rix2l6.asia/Article/details/7471393.sHtML
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：m.rix2l6.asia/Article/details/3049927.sHtML
+
+原标题：DevOps：GitLabCI完整流水线配置示例
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：m.rix2l6.asia/Article/details/3040282.sHtML
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：m.rix2l6.asia/Article/details/8313575.sHtML
+
+原标题：方案对比：RPC、HTTP、gRPC场景选型分析
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：m.rix2l6.asia/Article/details/8503926.sHtML
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：m.rix2l6.asia/Article/details/9623637.sHtML
+
+原标题：线上异常：接口偶发超时，完整定位过程记录
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：m.rix2l6.asia/Article/details/0949593.sHtML
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：m.rix2l6.asia/Article/details/9635148.sHtML
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：m.rix2l6.asia/Article/details/1735259.sHtML
+
+?
